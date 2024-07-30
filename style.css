@@ -1,0 +1,362 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+ }
+ header {
+    background-color: #333;
+    color: white;
+    padding: 1em 0;
+ }
+ nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+ }
+ nav ul li {
+    margin: 0 1em;
+    
+ }
+ nav ul li a {
+    color: white;
+    text-decoration: none;
+ }
+ section {
+    padding: 2em;
+    text-align: center;
+ }
+ section#home {
+    background-color: #f4f4f4;
+ }
+ 
+ section#intro, section#services, section#softwares, section#contact, section#chat {
+    background-color: #e2e2e2;
+    margin: 1em 0;
+ }
+ 
+ .responsive-home {
+    background-color: #e2e2e2;
+    margin: 1em 0;
+    position: absolute;
+    top:10px;
+    margin-top: 80px;
+    margin-right: 50px;
+    right:10px;
+    width:150px;
+    height:auto;
+    border-radius: 5px;
+ }
+ .responsive-intro {
+    background-color: #e2e2e2;
+    margin: 1em 0;
+    width:50%
+    
+ }
+ .quickbooks{
+    background-color: #e2e2e2;   
+    margin-top: 5px;
+    margin-bottom: 2px;
+    top:5px;
+    bottom: 2px;
+    margin-right: 10px;
+    margin-left: 20px;
+    left: 20px;
+    padding: 5px;
+    right:10px;
+    width:80px;
+    height:auto;
+    border-radius: 5px;
+    border: none;
+
+ }
+ .xero{
+    background-color: #e2e2e2;   
+    margin-top: 5px;
+    margin-bottom: 2px;
+    top:5px;
+    bottom: 2px;
+    margin-right: 10px;
+    margin-left: 20px;
+    left: 20px;
+    padding: 5px;
+    right:10px;
+    width:50px;
+    height:auto;
+    border-radius: 5px;
+    border: none;
+
+ }
+ .zoho{
+    background-color: #e2e2e2;   
+    margin-top: 5px;
+    margin-bottom: 2px;
+    top:5px;
+    bottom: 2px;
+    margin-right: 10px;
+    margin-left: 20px;
+    left: 20px;
+    padding: 5px;
+    right:10px;
+    width:100px;
+    height:auto;
+    border-radius: 5px;
+    border: none;
+
+ }
+ .sage{
+    background-color: #e2e2e2;   
+    margin-top: 5px;
+    margin-bottom: 2px;
+    top:5px;
+    bottom: 2px;
+    margin-right: 10px;
+    margin-left: 20px;
+    left: 20px;
+    padding: 5px;
+    right:10px;
+    width:50px;
+    height:auto;
+    border-radius: 5px;
+    border: none;
+
+ }
+ .gusto{
+    background-color: #e2e2e2;   
+    margin-top: 5px;
+    margin-bottom: 2px;
+    top:5px;
+    bottom: 2px;
+    margin-right: 10px;
+    margin-left: 20px;
+    left: 20px;
+    padding: 5px;
+    right:10px;
+    width:100px;
+    height:auto;
+    border-radius: 5px;
+    border: none;
+
+ }
+.myob{
+    background-color: #e2e2e2;   
+    margin-top: 5px;
+    margin-bottom: 2px;
+    top:5px;
+    bottom: 2px;
+    margin-right: 10px;
+    margin-left: 20px;
+    left: 20px;
+    padding: 5px;
+    right:10px;
+    width:50px;
+    height:auto;
+    border-radius: 5px;
+    border: none;
+
+}
+.odoo{
+    background-color: #e2e2e2;   
+    margin-top: 5px;
+    margin-bottom: 2px;
+    top:5px;
+    bottom: 2px;
+    margin-right: 10px;
+    margin-left: 20px;
+    left: 20px;
+    padding: 5px;
+    right:10px;
+    width:50px;
+    height:auto;
+    border-radius: 5px;
+    border: none;
+
+}
+.Freshbooks{
+    background-color: #e2e2e2;   
+    margin-top: 5px;
+    margin-bottom: 2px;
+    top:5px;
+    bottom: 2px;
+    margin-right: 10px;
+    margin-left: 20px;
+    left: 20px;
+    padding: 5px;
+    right:10px;
+    width:80px;
+    height:auto;
+    border-radius: 5px;
+    border: none;
+
+}
+.netsuite{
+    background-color: #e2e2e2;   
+    margin-top: 5px;
+    margin-bottom: 2px;
+    top:5px;
+    bottom: 2px;
+    margin-right: 10px;
+    margin-left: 20px;
+    left: 20px;
+    padding: 5px;
+    right:10px;
+    width:100px;
+    height:auto;
+    border-radius: 5px;
+    border: none;
+
+}
+.futrli{
+    background-color: #e2e2e2;   
+    margin-top: 5px;
+    margin-bottom: 2px;
+    top:5px;
+    bottom: 2px;
+    margin-right: 10px;
+    margin-left: 20px;
+    left: 20px;
+    padding: 5px;
+    right:10px;
+    width:100px;
+    height:auto;
+    border-radius: 5px;
+    border: none;
+
+}
+ form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ }
+ form label {
+    margin: 0.5em 0;
+ }
+ form input, form textarea {
+    width: 80%;
+    padding: 0.5em;
+    margin: 0.5em 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+ }
+ form button {
+    padding: 0.5em 2em;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    margin-top: 1em;
+ }
+ form button:hover {
+    background-color: #555;
+ }
+ #chatContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+ }
+ #contactForm {
+    width: 50%;
+    align-items: center;
+    text-align: center;
+    margin-left: 300px;
+    margin-right: 150px;
+    
+
+ }
+
+ 
+ #chatInput {
+    width: 30%;
+    padding: 5px;
+    border-radius: 4px;
+    
+    
+ }
+ #sendBtn {
+    padding: 0.5em 1em;
+    border: none;
+    background-color: #333;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+ }
+ #sendBtn:hover {
+    background-color: #555;
+ }
+ #contactOptions { 
+    color: black;
+    text-decoration: none;
+    margin-left: 5px;
+    left: 5px;;
+    margin-right: 10px;
+    right: 10px;
+    margin-top: 4px;
+    top: 4px;
+    margin-bottom: 20px;
+    bottom: 20px;
+    padding: 5px;
+    
+    line-height: 0.3;
+    margin-inline-start: auto;
+    border-radius: 5px;
+    border: none;
+    
+   
+   
+ }
+  #contactOptions a:hover {
+     text-decoration: underline; 
+     
+    }
+
+    .responsive-calling{
+    
+        background-color: #e2e2e2;
+        
+        margin-top: 5px;
+        margin-bottom: 2px;
+        top:5px;
+        bottom: 2px;
+        margin-right: 10px;
+        margin-left: 20px;
+        left: 20px;
+        padding: 5px;
+        right:10px;
+        width:50px;
+        height:auto;
+        border-radius: 5px;
+        border: none;
+            
+       }
+    .responsive-whtsapp{
+        background-color: #e2e2e2;
+        margin-bottom: 2px;
+        bottom: 2px;
+        top: 10px;
+        margin-top: 10px;
+        margin-right: 10px;
+        right:10px;
+        margin-left: 70px;
+        left: 70px;
+        width:50px;
+        height:auto;
+        border-radius: 5px;
+        border: none;
+            
+        }
+
+    
+
+
+ footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    position: relative;
+    width: 100%;
+   
+ }
